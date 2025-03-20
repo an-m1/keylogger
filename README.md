@@ -31,6 +31,11 @@ source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate    # For Windows
 ```
 
+To close the virtual environment.
+```sh
+deactivate 
+```
+
 ### 3️⃣ Install Dependencies
 ```sh
 pip install pynput
